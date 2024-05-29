@@ -14,20 +14,20 @@ import aiohttp
 import threading
 from groq import AsyncGroq
 
-RAPIDAPI_KEY = "20f8b0e060mshba26fe0a89931b1p1f5d14jsn387bbba3f769"
+RAPIDAPI_KEY = ""
 RAPIDAPI_HOST = "midjourney-imaginecraft-generative-ai-api.p.rapidapi.com"
-GROQ_API_KEY = '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'
+GROQ_API_KEY = ''
 GET_RESULT_ENDPOINT = "https://midjourney-imaginecraft-generative-ai-api.p.rapidapi.com/midjourney/getresult"
 IMAGINE_PARAMETER_ENDPOINT = "https://midjourney-imaginecraft-generative-ai-api.p.rapidapi.com/midjourney/imagineparameter"
 TOKEN = ''
-BOT_USER_ID = '1241526452436865085'
+BOT_USER_ID = ''
 CONVERSATION_HISTORY_FILE = "conversation_history.pkl"
 LAST_MESSAGE_ID_FILE = "last_message_id.pkl"
 
 # Define the server owner's identity and related keywords
 OWNER_NAME = "Qasim"
 OWNER_USERNAME = "qasim799"
-OWNER_USERID = "494786255951757323"
+OWNER_USERID = ""
 OWNER_KEYWORDS = [OWNER_NAME.lower(), OWNER_USERNAME.lower(), OWNER_USERID]
 
 # Initialize the Groq client
